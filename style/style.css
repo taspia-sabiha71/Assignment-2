@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-wrapper{
+background-color: black;
+}
+.navbar-main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nev-head{
+    color:  rgb(230, 83, 60);;
+}
+.navbar-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.navbar-btn-1{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size:16px ;
+    text-align: center;
+}
