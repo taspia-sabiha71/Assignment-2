@@ -7,7 +7,7 @@
 background-color: black;
 }
 .navbar-main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -31,4 +31,73 @@ background-color: black;
     border-radius: 5px;
     font-size:16px ;
     text-align: center;
+}
+.icon{
+    color: white;
+}
+.banner-section-main{
+    max-width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.979);
+}
+.banner-section-child{
+    width: 50%;
+    /* border: 2px solid green; */
+   color: white;
+   text-align: center;
+   padding: 0px;
+   margin: 28px 0px;
+    
+} .banner-section-child img{
+    width: 35%;
+    position: relative;
+    left: 1%;
+    bottom: 50%;
+    
+}
+.button-1{
+color: white;
+background-color: rgb(230, 83, 60);
+padding: 10px;
+border-radius: 50px;
+margin-top: 10px;
+}
+.button-2{
+    color: white;
+    padding: 10px;
+border-radius: 50px;
+background-color:black;
+margin-top: 10px;
+}
+.free-workout{
+    background-color: black;
+    color: white;
+    width: max-content;
+    padding: 5px 5px;
+    /* font-size: 15px; */
+    position: absolute;
+   text-align:center;
+   left: 1280px;
+   top: 160px;
+   border-radius: 12%;
+   background-color: rgba(0, 0, 0, 0.377);
+   color: white;
+}
+.video-tutorial{
+    background-color: black;
+    color: white;
+    width: max-content;
+    padding: 5px 5px;
+    /* font-size: 15px; */
+    position: absolute;
+   text-align:center;
+   left: 1100px;
+   top: 310px;
+   border-radius: 12%;
+   background-color: rgba(0, 0, 0, 0.288);
+   color: white;
 }
