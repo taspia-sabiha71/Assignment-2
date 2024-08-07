@@ -24,6 +24,9 @@ background-color: black;
     border-radius: 3px;
     margin-left: 10px;
 }
+.header{
+    background-color:rgb(0, 0, 0) ;
+}
 .navbar-btn-1{
     background-color: rgb(230, 83, 60);
     color: white;
@@ -34,10 +37,11 @@ background-color: black;
 }
 .icon{
     color: white;
+    display: none;
 }
 .banner-section-main{
     max-width: 1200px;
-    height: 350px;
+    height: 450px;
     margin: 0 auto;
     /* border: 2px solid red; */
     display: flex;
@@ -48,14 +52,14 @@ background-color: black;
     width: 50%;
     /* border: 2px solid green; */
    color: white;
-   text-align: center;
+   /* text-align: center; */
    padding: 0px;
    margin: 28px 0px;
     
 } .banner-section-child img{
     width: 35%;
     position: relative;
-    left: 1%;
+    left:1%
     bottom: 50%;
     
 }
@@ -81,10 +85,10 @@ margin-top: 10px;
     /* font-size: 15px; */
     position: absolute;
    text-align:center;
-   left: 1280px;
-   top: 160px;
+   left: 1090px;
+   top: 220px;
    border-radius: 12%;
-   background-color: rgba(0, 0, 0, 0.377);
+   background-color: rgba(255, 255, 255, 0.1);
    color: white;
 }
 .video-tutorial{
@@ -95,9 +99,274 @@ margin-top: 10px;
     /* font-size: 15px; */
     position: absolute;
    text-align:center;
-   left: 1100px;
-   top: 310px;
+   left: 900px;
+   top: 360px;
    border-radius: 12%;
-   background-color: rgba(0, 0, 0, 0.288);
-   color: white;
+   background-color:rgba(255, 255, 255, 0.1) ;
+   color: white;}
+   .change-habits{
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-color: black;
+    /* margin-top: 100px; */
+   }
+   .habits-title-container{
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    align-items: center;
+    color: white;
+   }
+   .habits-imag{
+    display: flex;
+   }
+   
+   .img1,.img2,.img3,.img4{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+   }
+   .img-title{
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+   }
+   .main{
+    background-color: black;
+   }
+   .Run-an-extra{
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius:20px ;
+    background-color: rgba(48, 47, 47, 0.418);
+   }
+   .Run-an-extra-child{
+    width: 100%;
+    /* border: 2px solid green; */
+   /* color: white; */
+  
+   padding: 10px 30px;
+   margin: 20px 20px;
+   }
+   .Run-an-extra img{
+    width: 500px;
+    border-radius: 20px;
+}
+.run-title{
+    font-size: 50px;
+    margin-top:10px ;
+}
+.btn-3{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+   
+}
+#BMI{
+    color: white;
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#BMI-p{
+    color: white;
+    margin-left: 700px;
+}
+.bmi-section{
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto; 
+    color: white;
+     /* border: 2px solid red; */
+     display: flex;
+     align-items: center;
+     border-radius:20px ;
+     background-color: rgba(48, 47, 47, 0.418);
+     margin-top: 20px;
+}
+.bmi-main{
+    width: 100%;
+    /* border: 2px solid green; */
+   
+   padding: 20px ;
+   margin: 10px 30px;
+}
+.bmi-chart{
+    font-size: 40px;
+}
+td,th{
+border: 3px solid rgba(59, 58, 58, 0.432);
+padding: 20px 40px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#Calculate{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+#bmi-motive{
+    margin-bottom: 20px;
+}
+#height{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(59, 59, 59);
+}
+#weight{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(59, 59, 59);
+}
+#age{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(59, 59, 59); 
+}
+#sex{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(59, 59, 59); 
+}  
+#Select{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 150px;
+    background-color: rgb(59, 59, 59);  
+}
+.btn-4{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 10px; 
+}
+.team-section{
+    max-width: 1200px;
+    height: 650px;
+    margin: 0 auto; 
+    color: white;
+     /* border: 2px solid red; */
+     /* display: flex; */
+     border-radius:20px ;
+     background-color: rgba(37, 37, 37, 0.363);
+     margin-top: 20px; 
+     position: relative;
+     
+}
+.team-img{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.trainer-1,.trainer-2,.trainer-3,.trainer-4,.trainer-5,.trainer-6{
+    width: 300px;
+    height: 280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.trainer-1,.trainer-2,.trainer-3{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.trainer-4,.trainer-5,.trainer-6{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.trainer-name-1,.trainer-name-2,.trainer-name-3,.trainer-name-4,.trainer-name-5,.trainer-name-6,{
+   position: absolute;
+  }
+  .trainer-name-1{
+    top: 10px;
+  }
+.team-h{
+    color: white;
+    font-size: 70px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.team-p{
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.footer-main{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height:300px ;
+    /* margin-top: 20px; */
+    display: flex;
+    /* border: 2px solid red; */
+    color: white;
+    padding:40px 320px ;
+    gap: 200px;
+}
+
+
+.footer-h{
+    font-size:70px ;
+    color:  rgb(230, 83, 60);
+}
+
+.footer-texts-1{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(113, 114, 116);
+}
+
+.footer-menu-1{
+    margin-top: 15px;
+    font-size: 25px;
+    color:rgb(113, 114, 116);
+}
+
+.footer-menu-2{
+    margin-top: 15px;
+    font-size: 25px;
+    color:rgb(113, 114, 116);
+}
+.footer-colum {
+    grid-area: 50px;
+}
+.right{
+    width: 100%;
+    height: 100px; 
+    background-color: rgb(32, 32, 32);
+    color:rgb(113, 114, 116);
+    text-align: center;
+    font-size: 25px;
 }
