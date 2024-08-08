@@ -37,7 +37,7 @@ background-color: black;
 }
 .icon{
     color: white;
-    display: none;
+    /* display: none; */
 }
 .banner-section-main{
     max-width: 1200px;
@@ -304,12 +304,12 @@ grid-template-columns: repeat(3,1fr);
     margin-left: 50px;
     margin-top: 20px;
 }
-.trainer-name-1,.trainer-name-2,.trainer-name-3,.trainer-name-4,.trainer-name-5,.trainer-name-6,{
+/* .trainer-name-1,.trainer-name-2,.trainer-name-3,.trainer-name-4,.trainer-name-5,.trainer-name-6,{
    position: absolute;
   }
   .trainer-name-1{
     top: 10px;
-  }
+  } */
 .team-h{
     color: white;
     font-size: 70px;
