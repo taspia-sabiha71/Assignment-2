@@ -37,7 +37,7 @@ background-color: black;
 }
 .icon{
     color: white;
-    /* display: none; */
+    display: none;
 }
 .banner-section-main{
     max-width: 1200px;
@@ -52,7 +52,6 @@ background-color: black;
     width: 50%;
     /* border: 2px solid green; */
    color: white;
-   /* text-align: center; */
    padding: 0px;
    margin: 28px 0px;
     
@@ -96,7 +95,6 @@ margin-top: 10px;
     color: white;
     width: max-content;
     padding: 5px 5px;
-    /* font-size: 15px; */
     position: absolute;
    text-align:center;
    left: 900px;
@@ -110,35 +108,46 @@ margin-top: 10px;
     margin: 0 auto;
     /* border: 2px solid red; */
     background-color: black;
-    /* margin-top: 100px; */
    }
-   .habits-title-container{
+   .habits-title-container {
     display: flex;
     flex-direction: column;
-    flex-direction: center;
     align-items: center;
     color: white;
-   }
-   .habits-imag{
+    text-align: center;
+}
+
+.habits-imag {
     display: flex;
-   }
-   
-   .img1,.img2,.img3,.img4{
-    width: 400px;
-    height: 300px;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 200px; /* Width and height are now equal */
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: white;
-   }
-   .img-title{
+    overflow: hidden; /* Ensure the image fits within the circular container */
+    background-color: white; /* Optional: Set a background color */
+}
+
+.img1 img, .img2 img, .img3 img, .img4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+.img-title {
     color: white;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-   }
+}
+
    .main{
     background-color: black;
    }
@@ -304,12 +313,7 @@ grid-template-columns: repeat(3,1fr);
     margin-left: 50px;
     margin-top: 20px;
 }
-/* .trainer-name-1,.trainer-name-2,.trainer-name-3,.trainer-name-4,.trainer-name-5,.trainer-name-6,{
-   position: absolute;
-  }
-  .trainer-name-1{
-    top: 10px;
-  } */
+
 .team-h{
     color: white;
     font-size: 70px;
