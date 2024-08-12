@@ -4,15 +4,12 @@
         flex-direction: row;
         padding: 10px;
     }
-
     .nav-btn-container {
         display: none;
     }
-
     .icon {
         display: block;
     }
-
     .banner-section-main {
         flex-direction: column;
         height: auto;
@@ -28,7 +25,6 @@
     .banner-section-main-text {
         font: size 2.5em;rem;
     }
-
     .free-workout{
             left: 65%;
             transform: translateX(-50%);
@@ -39,7 +35,6 @@
         transform: translateX(-50%);
         top: 800px;
     }
-
     .change-habits {
         height: auto; 
         text-align: center;
@@ -48,8 +43,8 @@
     .habits-imag {
     flex-direction: column;
      align-items: center;
-    margin: 0 auto;} 
-
+    margin: 0 auto;
+    } 
     .img1, .img2, .img3, .img4 {
         width: 50%;
         height: auto;
@@ -58,13 +53,11 @@
     .img-title {
         display: none;
     }
-
     .Run-an-extra {
         flex-direction: column;
         padding: 20px;
         height: auto;
     }
-
     .Run-an-extra img {
         width: 100%;
         margin-top: 10px;
@@ -72,22 +65,20 @@
     .run-title {
         font-size: 36px;
     }
-        .btn-3 {
+    .btn-3 {
             align-self: center;
             width: 100%;
-        }
-        #BMI, #BMI-p {
+    }
+    #BMI, #BMI-p {
             font-size: 24px;
             margin-left: 0; 
             padding-left: 20px;
-        }
-
+    }
     .bmi-section {
         flex-direction: column;
         height: auto;
         padding: 20px;
     }
-
     .bmi-main {
         width: 100%;
         text-align: center;
@@ -99,7 +90,6 @@
         #Select{
             padding: 5% 10%;
         }
-
     .team-section {
         height: auto;
         padding: 20px;
@@ -108,8 +98,6 @@
         grid-template-columns: 1fr;
         gap: 20px;
     }
-
-
     .trainer-1, .trainer-2, .trainer-3, .trainer-4, .trainer-5, .trainer-6 {
         width: 100%;
         height: auto;
@@ -119,7 +107,6 @@
         font-size: 36px;
         margin: 20px 0;
     }
-
     .footer-main {
         height: auto;
         flex-direction: column;

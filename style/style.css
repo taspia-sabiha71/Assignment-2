@@ -54,6 +54,9 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.979);
 }
+.banner-section-main-text{
+    font-size: 50px;
+}
 .banner-section-child{
     width: 50%;
     /* border: 2px solid green; */
@@ -65,8 +68,7 @@
     width: 35%;
     position: relative;
     left:1%
-    bottom: 50%;
-    
+    bottom:50%;
 }
 .button-1{
     color: white;
@@ -87,14 +89,13 @@
     color: white;
     width: max-content;
     padding: 5px 5px;
-    /* font-size: 15px; */
     position: absolute;
-   text-align:center;
-   left: 1090px;
-   top: 220px;
-   border-radius: 12%;
-   background-color: rgba(255, 255, 255, 0.1);
-   color: white;
+    text-align:center;
+    left: 1090px;
+    top: 220px;
+    border-radius: 12%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 .video-tutorial{
     background-color: black;
@@ -102,18 +103,21 @@
     width: max-content;
     padding: 5px 5px;
     position: absolute;
-   text-align:center;
-   left: 900px;
-   top: 360px;
-   border-radius: 12%;
-   background-color:rgba(255, 255, 255, 0.1) ;
-   color: white;}
-   .change-habits{
+    text-align:center;
+    left: 900px;
+    top: 360px;
+    border-radius: 12%;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    color: white;}
+.change-habits{
     max-width: 1200px;
     height: 500px;
     margin: 0 auto;
     /* border: 2px solid red; */
     background-color: black;
+   }
+   .icon2{
+    color:rgb(230, 83, 60); ;
    }
    .habits-title-container {
     display: flex;
@@ -122,30 +126,26 @@
     color: white;
     text-align: center;
 }
-
 .habits-imag {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
 }
-
 .img1, .img2, .img3, .img4 {
-    width: 200px; /* Width and height are now equal */
+    width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden; /* Ensure the image fits within the circular container */
-    background-color: white; /* Optional: Set a background color */
+    overflow: hidden; 
+    background-color: white; 
 }
-
 .img1 img, .img2 img, .img3 img, .img4 img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+    object-fit: cover;
 }
-
 .img-title {
     color: white;
     display: flex;
@@ -153,7 +153,6 @@
     align-items: center;
     text-align: center;
 }
-
 .main{
     background-color: black;
    }
@@ -171,11 +170,9 @@
    }
 .Run-an-extra-child{
     width: 100%;
-    /* border: 2px solid green; */
-   /* color: white; */
-  
-   padding: 10px 30px;
-   margin: 20px 20px;
+    /* border: 2px solid green; */  
+    padding: 10px 30px;
+    margin: 20px 20px;
    }
 .Run-an-extra img{
     width: 500px;
@@ -205,20 +202,20 @@
     margin-left: 700px;
 }
 .bmi-section{
-    max-width: 1200px;
+   max-width:1200px;
     height: 450px;
     margin: 0 auto; 
     color: white;
-     /* border: 2px solid red; */
-     display: flex;
-     align-items: center;
-     border-radius:20px ;
-     background-color: rgba(48, 47, 47, 0.418);
-     margin-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    border-radius:20px ;
+    background-color: rgba(48, 47, 47, 0.418);
+    margin-top: 20px;
 }
 .bmi-main{
-    width: 100%;
-    /* border: 2px solid green; */
+   width: 100%;
+   /* border: 2px solid green; */
    padding: 20px ;
    margin: 10px 30px;
 }
@@ -311,13 +308,11 @@ table{
     height: 280px;
     margin: 0 auto;
 }
-
 .trainer img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
-
 .trainer-info {
     position: absolute;
     bottom: 0;
@@ -329,7 +324,6 @@ table{
     border-radius: 0 0 10px 10px;
     text-align: left;
 }
-
 .trainer-name {
     font-size: 1.2em;
     font-weight: bold;
@@ -352,37 +346,30 @@ table{
     margin-left: 20px;
     text-align: center;
 }
-
 .footer-main{
     background-color: rgb(32, 32, 32);
     width: 100%;
     height:300px ;
-    /* margin-top: 20px; */
     display: flex;
     /* border: 2px solid red; */
     color: white;
     padding:40px 320px ;
     gap: 200px;
 }
-
-
 .footer-h{
     font-size:70px ;
     color:  rgb(230, 83, 60);
 }
-
 .footer-texts-1{
     margin-top: 20px;
     font-size: 20px;
     color:rgb(113, 114, 116);
 }
-
 .footer-menu-1{
     margin-top: 15px;
     font-size: 25px;
     color:rgb(113, 114, 116);
 }
-
 .footer-menu-2{
     margin-top: 15px;
     font-size: 25px;
